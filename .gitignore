@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+build/
+dist/
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Environment variables
+.env.local
+.env.development.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+deployment/ansible/inventory.yml
+*.pem
+*.key
